@@ -1,0 +1,49 @@
+/* 
+  Localizable.strings
+  AR-Quest
+
+  Created by Madushan Senavirathna on 6/12/22.
+  
+*/
+
+//Home Screen
+Authentication.HomeScreen.welcomeLabel.Label = "Welcome!";
+Authentication.HomeScreen.welcomeDiscription.Label = "Its naver too laye to explore the world.
+Come join us!";
+Authentication.HomeScreen.createAccount.Button = "create Account";
+Authentication.HomeScreen.SignIn.Button = "Sign In";
+
+//SignUp Screen
+Authentication.SignUpScreen.signUpLabel.Label = "Sign Up";
+Authentication.SignUpScreen.nameLabel.Label = "Name";
+Authentication.SignUpScreen.emailLabel.Label = "Email";
+Authentication.SignUpScreen.passwordLabel.Label = "Password";
+Authentication.SignUpScreen.signUpButton.Button = "Create Account";
+Authentication.SignUpScreen.AlredyHaveAnAccountLabel.Label = "Alredy have an account?";
+
+//SignIn Screen
+Authentication.SignUpScreen.signInLabel.Label = "Sign In";
+Authentication.SignUpScreen.emailLabel.Label = "Email";
+Authentication.SignUpScreen.passwordLabel.Label = "Password";
+Authentication.SignUpScreen.forgetPasswordBtn.Button = "Forget Password?";
+Authentication.SignUpScreen.signInButton.Button = "Sign in";
+Authentication.SignUpScreen.dontHaveAnAccount.Label = "Dont have an account?";
+
+//Forget Password Screen
+Authentication.ForgetPasswordScreen.forgetPasswordLabel.label = "Forget Password";
+Authentication.ForgetPasswordScreen.emailLabel.label = "Email";
+Authentication.ForgetPasswordScreen.resetPasswordButton.Button = "Reset Password";
+Authentication.ForgetPasswordScreen.alredyHaveAnAccountLabel.Label = "Alredy have an account?";
+
+//Alerts
+Alert.Title.Sorry = "Sorry";
+Alert.Message.EmailSendFail = "Email verification sending fail";
+Alert.Button.SendAgain = "Send again";
+Alert.Button.Cancel = "Cancel";
+Alert.Message.SignupNotSupport = "The given sign-in provider is disabled";
+Alert.Button.Ok = "Ok";
+Alert.Message.AlreadyUsedEmail = "Email address is already in used by another account";
+Alert.Message.InvalidEmail = "Email address is invalid";
+Alert.Message.PasswordNotStrong = "The password must be 6 characters long or more";
+Alert.Title.Success = "Account creation Success";
+Alert.Message.Success.Discription = "Your Account creation is success please verify your email before login";

@@ -7,15 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		291EDA7C287137ED004DDEAF /* OrderCartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291EDA7B287137ED004DDEAF /* OrderCartTableViewCell.swift */; };
+		291EDA7E2871519C004DDEAF /* TableViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291EDA7D2871519C004DDEAF /* TableViewData.swift */; };
+		293BAA0528703183001FF340 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293BAA0428703183001FF340 /* CartViewController.swift */; };
+		293BAA08287031B6001FF340 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293BAA07287031B6001FF340 /* PaymentViewController.swift */; };
+		293BAA0B2870739B001FF340 /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293BAA0A2870739B001FF340 /* SuccessViewController.swift */; };
+		293BAA0D287073B6001FF340 /* UnSuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293BAA0C287073B6001FF340 /* UnSuccessViewController.swift */; };
 		299602F0285568C300EE8A8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299602EF285568C300EE8A8A /* AppDelegate.swift */; };
 		299602F2285568C300EE8A8A /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 299602F1285568C300EE8A8A /* art.scnassets */; };
 		299602F4285568C300EE8A8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299602F3285568C300EE8A8A /* ViewController.swift */; };
 		299602F7285568C300EE8A8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 299602F5285568C300EE8A8A /* Main.storyboard */; };
 		299602F9285568C400EE8A8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 299602F8285568C400EE8A8A /* Assets.xcassets */; };
 		299602FC285568C400EE8A8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 299602FA285568C400EE8A8A /* LaunchScreen.storyboard */; };
+		2996030828556EAD00EE8A8A /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2996030728556EAD00EE8A8A /* BaseViewController.swift */; };
+		2996030A28556ED900EE8A8A /* Consts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2996030928556ED900EE8A8A /* Consts.swift */; };
+		2996030C28556EFF00EE8A8A /* UserDefaultManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2996030B28556EFF00EE8A8A /* UserDefaultManager.swift */; };
+		2996030E28556F2D00EE8A8A /* UIViewControllerExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2996030D28556F2D00EE8A8A /* UIViewControllerExtentions.swift */; };
+		299603132855712100EE8A8A /* StoryboardName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299603122855712100EE8A8A /* StoryboardName.swift */; };
+		29960316285571CD00EE8A8A /* UIStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29960315285571CD00EE8A8A /* UIStoryboard.swift */; };
+		29960318285571EA00EE8A8A /* StoryboardUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29960317285571EA00EE8A8A /* StoryboardUtil.swift */; };
+		2996031F2855737500EE8A8A /* StringExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2996031E2855737500EE8A8A /* StringExtention.swift */; };
+		29960321285573BB00EE8A8A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 29960320285573BB00EE8A8A /* Localizable.strings */; };
+		2996032328557C8300EE8A8A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2996032228557C8300EE8A8A /* MainViewController.swift */; };
+		2996032528557CD600EE8A8A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2996032428557CD600EE8A8A /* LoginViewController.swift */; };
+		2996032728557D0200EE8A8A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2996032628557D0200EE8A8A /* SignUpViewController.swift */; };
+		2996032928557D2A00EE8A8A /* ForgetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2996032828557D2A00EE8A8A /* ForgetPasswordViewController.swift */; };
+		2996032D285597CF00EE8A8A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2996032C285597CF00EE8A8A /* GoogleService-Info.plist */; };
+		29ED65ED285D95C5002F2026 /* AJProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29ED65EC285D95C5002F2026 /* AJProgressView.swift */; };
+		29F6C2952855B96F0015E37F /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F6C2942855B96F0015E37F /* OnboardingViewController.swift */; };
+		29F6C2972855C0F90015E37F /* OnboardingSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F6C2962855C0F90015E37F /* OnboardingSlide.swift */; };
+		29F6C2992855C40C0015E37F /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F6C2982855C40B0015E37F /* OnboardingCollectionViewCell.swift */; };
+		8E8ECE88A648A40E2BB50CC1 /* Pods_AR_Quest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05FEA7404E0C27578A5BDDAF /* Pods_AR_Quest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05FEA7404E0C27578A5BDDAF /* Pods_AR_Quest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AR_Quest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		205C0AA81A93CEA37380A6C3 /* Pods-AR-Quest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AR-Quest.release.xcconfig"; path = "Target Support Files/Pods-AR-Quest/Pods-AR-Quest.release.xcconfig"; sourceTree = "<group>"; };
+		291EDA7B287137ED004DDEAF /* OrderCartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCartTableViewCell.swift; sourceTree = "<group>"; };
+		291EDA7D2871519C004DDEAF /* TableViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewData.swift; sourceTree = "<group>"; };
+		293BAA0428703183001FF340 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		293BAA07287031B6001FF340 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		293BAA0A2870739B001FF340 /* SuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessViewController.swift; sourceTree = "<group>"; };
+		293BAA0C287073B6001FF340 /* UnSuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnSuccessViewController.swift; sourceTree = "<group>"; };
 		299602EC285568C300EE8A8A /* AR-Quest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR-Quest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		299602EF285568C300EE8A8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		299602F1285568C300EE8A8A /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -23,6 +56,25 @@
 		299602F6285568C300EE8A8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		299602F8285568C400EE8A8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		299602FB285568C400EE8A8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2996030728556EAD00EE8A8A /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		2996030928556ED900EE8A8A /* Consts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Consts.swift; sourceTree = "<group>"; };
+		2996030B28556EFF00EE8A8A /* UserDefaultManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultManager.swift; sourceTree = "<group>"; };
+		2996030D28556F2D00EE8A8A /* UIViewControllerExtentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtentions.swift; sourceTree = "<group>"; };
+		299603122855712100EE8A8A /* StoryboardName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardName.swift; sourceTree = "<group>"; };
+		29960315285571CD00EE8A8A /* UIStoryboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStoryboard.swift; sourceTree = "<group>"; };
+		29960317285571EA00EE8A8A /* StoryboardUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardUtil.swift; sourceTree = "<group>"; };
+		2996031E2855737500EE8A8A /* StringExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtention.swift; sourceTree = "<group>"; };
+		29960320285573BB00EE8A8A /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		2996032228557C8300EE8A8A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		2996032428557CD600EE8A8A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2996032628557D0200EE8A8A /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		2996032828557D2A00EE8A8A /* ForgetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordViewController.swift; sourceTree = "<group>"; };
+		2996032C285597CF00EE8A8A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		29ED65EC285D95C5002F2026 /* AJProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AJProgressView.swift; sourceTree = "<group>"; };
+		29F6C2942855B96F0015E37F /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		29F6C2962855C0F90015E37F /* OnboardingSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSlide.swift; sourceTree = "<group>"; };
+		29F6C2982855C40B0015E37F /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
+		914FCC8BB8A1253BE66EE9DC /* Pods-AR-Quest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AR-Quest.debug.xcconfig"; path = "Target Support Files/Pods-AR-Quest/Pods-AR-Quest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,17 +82,62 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E8ECE88A648A40E2BB50CC1 /* Pods_AR_Quest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27E7BC4A8C597DB1E943B2D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05FEA7404E0C27578A5BDDAF /* Pods_AR_Quest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		293BAA032870313A001FF340 /* Ordercart */ = {
+			isa = PBXGroup;
+			children = (
+				293BAA0428703183001FF340 /* CartViewController.swift */,
+				291EDA7B287137ED004DDEAF /* OrderCartTableViewCell.swift */,
+			);
+			path = Ordercart;
+			sourceTree = "<group>";
+		};
+		293BAA06287031A0001FF340 /* Payment */ = {
+			isa = PBXGroup;
+			children = (
+				293BAA07287031B6001FF340 /* PaymentViewController.swift */,
+			);
+			path = Payment;
+			sourceTree = "<group>";
+		};
+		293BAA09287031C2001FF340 /* PaymentInformation */ = {
+			isa = PBXGroup;
+			children = (
+				293BAA0A2870739B001FF340 /* SuccessViewController.swift */,
+				293BAA0C287073B6001FF340 /* UnSuccessViewController.swift */,
+			);
+			path = PaymentInformation;
+			sourceTree = "<group>";
+		};
 		299602E3285568C300EE8A8A = {
 			isa = PBXGroup;
 			children = (
+				2996032C285597CF00EE8A8A /* GoogleService-Info.plist */,
+				2996030428556E4C00EE8A8A /* ViewModel */,
+				2996030328556E4100EE8A8A /* Model */,
+				2996030228556E2A00EE8A8A /* View */,
+				2996030628556E8200EE8A8A /* Common */,
+				299603142855719D00EE8A8A /* Utill */,
+				2996030F28556F7800EE8A8A /* Constant */,
+				299603192855728900EE8A8A /* Resources */,
 				299602EE285568C300EE8A8A /* AR-Quest */,
 				299602ED285568C300EE8A8A /* Products */,
+				A17610EA026D549F1F1DC6F6 /* Pods */,
+				27E7BC4A8C597DB1E943B2D9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,11 +155,154 @@
 				299602EF285568C300EE8A8A /* AppDelegate.swift */,
 				299602F1285568C300EE8A8A /* art.scnassets */,
 				299602F3285568C300EE8A8A /* ViewController.swift */,
-				299602F5285568C300EE8A8A /* Main.storyboard */,
 				299602F8285568C400EE8A8A /* Assets.xcassets */,
 				299602FA285568C400EE8A8A /* LaunchScreen.storyboard */,
 			);
 			path = "AR-Quest";
+			sourceTree = "<group>";
+		};
+		2996030228556E2A00EE8A8A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				299603112855705400EE8A8A /* ViewController */,
+				299603102855700B00EE8A8A /* Storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2996030328556E4100EE8A8A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				29F6C2962855C0F90015E37F /* OnboardingSlide.swift */,
+				291EDA7D2871519C004DDEAF /* TableViewData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2996030428556E4C00EE8A8A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2996030528556E6400EE8A8A /* Authantication */ = {
+			isa = PBXGroup;
+			children = (
+				2996032228557C8300EE8A8A /* MainViewController.swift */,
+				2996032428557CD600EE8A8A /* LoginViewController.swift */,
+				2996032628557D0200EE8A8A /* SignUpViewController.swift */,
+				2996032828557D2A00EE8A8A /* ForgetPasswordViewController.swift */,
+			);
+			path = Authantication;
+			sourceTree = "<group>";
+		};
+		2996030628556E8200EE8A8A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2996030928556ED900EE8A8A /* Consts.swift */,
+				2996030728556EAD00EE8A8A /* BaseViewController.swift */,
+				2996030B28556EFF00EE8A8A /* UserDefaultManager.swift */,
+				2996030D28556F2D00EE8A8A /* UIViewControllerExtentions.swift */,
+				29ED65EC285D95C5002F2026 /* AJProgressView.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		2996030F28556F7800EE8A8A /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				299603122855712100EE8A8A /* StoryboardName.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		299603102855700B00EE8A8A /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				299602F5285568C300EE8A8A /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		299603112855705400EE8A8A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				293BAA09287031C2001FF340 /* PaymentInformation */,
+				293BAA06287031A0001FF340 /* Payment */,
+				293BAA032870313A001FF340 /* Ordercart */,
+				29F6C2902855B91A0015E37F /* Onboarding */,
+				2996030528556E6400EE8A8A /* Authantication */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		299603142855719D00EE8A8A /* Utill */ = {
+			isa = PBXGroup;
+			children = (
+				29960315285571CD00EE8A8A /* UIStoryboard.swift */,
+				29960317285571EA00EE8A8A /* StoryboardUtil.swift */,
+			);
+			path = Utill;
+			sourceTree = "<group>";
+		};
+		299603192855728900EE8A8A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2996031D285572D600EE8A8A /* Config */,
+				2996031C285572C900EE8A8A /* Font */,
+				2996031B285572BB00EE8A8A /* String */,
+				2996031A285572A900EE8A8A /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2996031A285572A900EE8A8A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		2996031B285572BB00EE8A8A /* String */ = {
+			isa = PBXGroup;
+			children = (
+				2996031E2855737500EE8A8A /* StringExtention.swift */,
+				29960320285573BB00EE8A8A /* Localizable.strings */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		2996031C285572C900EE8A8A /* Font */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		2996031D285572D600EE8A8A /* Config */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		29F6C2902855B91A0015E37F /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				29F6C2942855B96F0015E37F /* OnboardingViewController.swift */,
+				29F6C2982855C40B0015E37F /* OnboardingCollectionViewCell.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		A17610EA026D549F1F1DC6F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				914FCC8BB8A1253BE66EE9DC /* Pods-AR-Quest.debug.xcconfig */,
+				205C0AA81A93CEA37380A6C3 /* Pods-AR-Quest.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,9 +312,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 299602FF285568C400EE8A8A /* Build configuration list for PBXNativeTarget "AR-Quest" */;
 			buildPhases = (
+				4A20EFEDCCEEA285506AFAAD /* [CP] Check Pods Manifest.lock */,
 				299602E8285568C300EE8A8A /* Sources */,
 				299602E9285568C300EE8A8A /* Frameworks */,
 				299602EA285568C300EE8A8A /* Resources */,
+				92AD89F5F03448A32188545E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,22 +365,88 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29960321285573BB00EE8A8A /* Localizable.strings in Resources */,
 				299602F2285568C300EE8A8A /* art.scnassets in Resources */,
 				299602FC285568C400EE8A8A /* LaunchScreen.storyboard in Resources */,
 				299602F9285568C400EE8A8A /* Assets.xcassets in Resources */,
 				299602F7285568C300EE8A8A /* Main.storyboard in Resources */,
+				2996032D285597CF00EE8A8A /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A20EFEDCCEEA285506AFAAD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AR-Quest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92AD89F5F03448A32188545E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AR-Quest/Pods-AR-Quest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AR-Quest/Pods-AR-Quest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AR-Quest/Pods-AR-Quest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		299602E8285568C300EE8A8A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2996032528557CD600EE8A8A /* LoginViewController.swift in Sources */,
+				293BAA0B2870739B001FF340 /* SuccessViewController.swift in Sources */,
+				29960318285571EA00EE8A8A /* StoryboardUtil.swift in Sources */,
+				291EDA7E2871519C004DDEAF /* TableViewData.swift in Sources */,
+				2996032328557C8300EE8A8A /* MainViewController.swift in Sources */,
 				299602F4285568C300EE8A8A /* ViewController.swift in Sources */,
+				2996032928557D2A00EE8A8A /* ForgetPasswordViewController.swift in Sources */,
+				2996030A28556ED900EE8A8A /* Consts.swift in Sources */,
+				299603132855712100EE8A8A /* StoryboardName.swift in Sources */,
+				293BAA08287031B6001FF340 /* PaymentViewController.swift in Sources */,
+				2996030E28556F2D00EE8A8A /* UIViewControllerExtentions.swift in Sources */,
+				291EDA7C287137ED004DDEAF /* OrderCartTableViewCell.swift in Sources */,
+				29960316285571CD00EE8A8A /* UIStoryboard.swift in Sources */,
+				293BAA0528703183001FF340 /* CartViewController.swift in Sources */,
 				299602F0285568C300EE8A8A /* AppDelegate.swift in Sources */,
+				293BAA0D287073B6001FF340 /* UnSuccessViewController.swift in Sources */,
+				29F6C2952855B96F0015E37F /* OnboardingViewController.swift in Sources */,
+				2996031F2855737500EE8A8A /* StringExtention.swift in Sources */,
+				2996030828556EAD00EE8A8A /* BaseViewController.swift in Sources */,
+				29F6C2972855C0F90015E37F /* OnboardingSlide.swift in Sources */,
+				29ED65ED285D95C5002F2026 /* AJProgressView.swift in Sources */,
+				2996032728557D0200EE8A8A /* SignUpViewController.swift in Sources */,
+				2996030C28556EFF00EE8A8A /* UserDefaultManager.swift in Sources */,
+				29F6C2992855C40C0015E37F /* OnboardingCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,7 +523,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +578,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,12 +590,13 @@
 		};
 		29960300285568C400EE8A8A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 914FCC8BB8A1253BE66EE9DC /* Pods-AR-Quest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = W7KMG8N2XU;
+				DEVELOPMENT_TEAM = 348B6A9XT6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -302,7 +611,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ARQuest.com.AR-Quest";
+				PRODUCT_BUNDLE_IDENTIFIER = ARQuest.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -312,12 +621,13 @@
 		};
 		29960301285568C400EE8A8A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 205C0AA81A93CEA37380A6C3 /* Pods-AR-Quest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = W7KMG8N2XU;
+				DEVELOPMENT_TEAM = 348B6A9XT6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -332,7 +642,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ARQuest.com.AR-Quest";
+				PRODUCT_BUNDLE_IDENTIFIER = ARQuest.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
